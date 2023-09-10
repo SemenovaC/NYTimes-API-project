@@ -1,0 +1,78 @@
+.bestSellers-block {
+  width: 27%;
+  padding-right: 30px;
+}
+
+.bestSellersList-container {
+  display: flex;
+  /* position: absolute;
+  right: 40px;
+  top: 0; */
+}
+
+.books-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: flex-end;
+  row-gap: 30px;
+  border-left: 1px;
+  border-left-style: solid;
+  border-left-color: rgb(175, 175, 175);
+}
+
+.book {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  height: 210px;
+  background-color: rgb(246, 246, 246);
+  box-shadow: 2px 2px 9px rgba(0, 0, 0, .15);
+  padding: 15px;
+  transition: 0.3s transform;
+  list-style-type: none;
+  position: relative;
+}
+
+.book-description-container {
+  display: block;
+}
+
+.book-image-container {
+  width: 100px;
+}
+
+.book-image {
+  width: 90px;
+}
+
+.book-title {
+  font-weight: 600;
+  font-size: 15px;
+  margin-right: 10px;
+}
+
+.book-abstract {
+  text-align: justify;
+  margin-top: 10px;
+  margin-right: 10px;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.book-author {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  font-size: 15px;
+  font-style: italic;
+}
+
+.bestsellers-title-container {
+  border-left-color:rgb(175, 175, 175);
+  border-left-width: 1px;
+  border-left-style: solid;
+}
+
+.bestsellers-title {
+  display: block;
+}
